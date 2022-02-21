@@ -1,4 +1,5 @@
 
+
 *{
     box-sizing: border-box;
     padding:0;
@@ -6,24 +7,43 @@
 }
 
 #navbar{
-    background-color: #000;
     padding: 20px 15px;
     display: flex;
+  justify-content: space-between;
+align-items: center;
   
 }
-
+#navbar > div:first-child{
+    display: flex;
+}
 #navbar >div:first-child > img{
     width: 180px;
     height:41px;
+    margin-right: 20px;
 }
-#navbar > div:first-child > a{
-    font-family: MuseoSans-700,sans-serif;
-    font-weight: 400;
-    /* color: #2f2f2f; */
-    color: #fff;
+#navbar >div:first-child > div{
+    height:45px;
+    display:flex;
+    align-items: center;
+}
+#navbar a{
+    font-family:sans-serif;
+    color: #2f2f2f;
+    font-weight:600;
     font-size: 14px;
-    padding: 10px 15px 30px;
+    padding: 10px 15px;
     transition: all .2s ease-in-out;
     text-decoration: none;
-      align-items: center;
 }
+
+#navbar  a:hover{
+    color:#F37E5D;
+}
+
+ #navbar > div:last-child > button{
+   background-color: #F37E5D;
+border-radius: 5px;
+padding:14px;
+color:#fff;
+border: none;
+ }
