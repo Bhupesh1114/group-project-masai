@@ -57,7 +57,7 @@ border: none;
      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
      padding:20px;
 font-family: sans-serif;
-line-height:18px;
+line-height:20px;
 position:absolute;
 top:45px;
 display:none;
@@ -123,7 +123,6 @@ color:#2f2f2f;
      width:45%;
      padding:10px 30px;
  }
-
 
  #product-card > div > div{
      display: flex;
