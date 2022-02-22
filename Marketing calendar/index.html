@@ -135,6 +135,48 @@
             display: none !important;
             opacity: 1 !important;
         }
+        #hulk{
+            width: 80%;
+            height: 600px;
+            border: 1px solid red;
+            margin: auto;
+        }
+        #hulk>div:nth-child(1){
+            width: 75%;
+            text-align: center;
+            border: 1px solid green;
+            margin: auto;
+            font-size: 22px;
+            font-style: italic;
+            color: #4b4b4b;
+            line-height: 33px;
+        }
+        #hulk>div:nth-child(2){
+            width: 100%;
+            height: 200px;
+            border: 1px solid red;
+            margin-top: 120px;
+            background-color: coral;
+            color: white;
+        }
+        #hulk>div>div{
+            width: 56%;
+            margin: auto;
+            text-align: center;
+            line-height: 200%;
+        }
+        #hulk button{
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px 0 rgb(151 42 11 / 20%);
+            border: 2px solid transparent;
+            background-color: #fff;
+            font-size: 15px;
+            color: #f37e5d;
+            cursor: pointer;
+            font-weight: bold;
+            word-spacing: 2px;
+        }
     </style>
 </head>
 <body>
@@ -180,6 +222,19 @@
                   </video>           
              </div>
         </div>
+    </div>
+    <!-- hulk - the next main box -->
+    <div id="hulk">
+         <!-- text box -->
+         <div><p>"Before CoSchedule, everything was scattered between email and spreadsheets. With CoSchedule, I can<span style="background-color: mistyrose;"> easily organize all of my marketing </span>and keep everyone on the same page."</p>
+              <p style="font-size: 14px; font-style: normal;margin-top: -20px;">Beverly Cook, Director of Communications at NYC Leadership Center</p>
+        </div>
+        <!-- orange box in hulk -->
+        <div>
+            <div><h2>Take control, see all of your projects, and show your progress with Marketing Calendar</h2></div>
+            <div><button>Create My Forever-Free Marketing Calendar</button></div>
+        </div>
+
     </div>
 </body>
 </html>
