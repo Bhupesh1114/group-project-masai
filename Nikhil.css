@@ -1,13 +1,177 @@
+*{
+  font-family: sans-serif;
+}
+
 #head{
   text-align: center;
 }
 
-#mid{
-    border: 1px solid red;
-    width: 80%;
-    height: 1000px;
+#mid-top{
+    /* position: relative; */
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 1100px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2, 500px);
+    gap : 40px;
     margin: auto;
+}
+
+#mid-top > div{
+
+     margin: auto;
+     width: 100%;
+     height: 500px;
+     /* border: 1px solid blue; */
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#mid-top > div >p{
+  padding-left: 30px;
+}
+
+#mid-top > div >h3{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#top{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black; */
+}
+
+.first{
+  display: inline-block;
+  position: relative;
+  width:100%;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.second{
+  display: inline-block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 60px;
+  left: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li:before {
+  content:"\2714\0020";
+}
+
+button{
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 30%;
+  height: 40px;
+  border : 0px;
+  border-radius: 5px;
+}
+
+#d1,#d2{
+  background-color: #ffede3;
+  color: #f89d74;
+}
+#d3{
+  background-color: #dfe8f9;
+  color: #618be4;
+}
+#d4{
+  background-color: #e6defa;
+  color: #836eea;
+}
+
+
+#mid-mid{
+  margin: auto;
+  width: 100%;
+  height: 450px;
+  /* border: 1px solid teal; */
+  text-align: center;
+}
+
+#blocks{
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,400px);
+}
+
+#blocks > div{
+  margin: auto;
+  /* border: 1px solid #836eea; */
+  width: 70%;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#blocks > div > h1{
+  margin-top: 40px;
+}
+
+#blocks > div > h3{
+  margin-top: -30px;
+}
+
+#blocks > div > div{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#blocks > div > div >img{
+  margin: auto;
+  width: 147px;
+  height: 85px;
+}
+
+#blocks > div > div >#pic{
+  margin: auto;
+  width: 84px;
+  height:110px;
+  margin-top: -20px;
+}
+
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70px ;
+  height: 3px;
+  background-color: lightgray;
+  border-radius: 3px;
+}
+
+#mid-down{
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-color: #f89d74 ;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 40px; 
+  text-align: center;
+}
+
+#mid-down > button{
+  width: 18%;
+  height: 50px;
+  background-color: white;
+  color: #f89d74;
+  border-radius: 5px;
+  border : 0px;
+  font-weight: bold;
 }
