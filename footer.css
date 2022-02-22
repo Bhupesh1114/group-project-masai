@@ -41,6 +41,8 @@ a:hover{
 
 .footerContent>div>div{
     margin-bottom: 12px;
+    display: flex;
+    align-items: center;
 }
 h5{
     margin-bottom: 14px;
@@ -74,6 +76,8 @@ p+div{
     margin-right: 7%;
 }
 div>i{
-    font-size: 26px;
-    margin-right: 5px;
+    font-size: 29px;
+    margin-right: 3px;
+    color: lightgray;
+    border-radius: 50%;
 }
