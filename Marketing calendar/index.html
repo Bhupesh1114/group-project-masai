@@ -27,6 +27,7 @@
             width: 80%;
             border: 1px solid teal;
             margin: auto;
+            margin-top: 30px;
         }
         .ironmanContent>div:nth-child(1){
             height: 40px;
@@ -44,6 +45,93 @@
             margin-left: 20px;
             letter-spacing: 1px;
         }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        h1+h3{
+            font-style: italic;
+            font-family: "Merriweather",serif;
+            font-weight: 300;
+            margin-top: -30px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .ironmanContent>button{
+            padding: 15px;
+            width: 20%;
+            background-color: coral;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+            margin: 20px 0px 0px  40%;
+        }
+        .ironmanContent>button:hover{
+            background-color: indianred;
+        }
+        .ironmanContent>h6{
+            font-style: italic;
+            font-size: 16px;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 400;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .ironmanContent+div{
+             height: 140px;
+             width: 15%;
+             border: 1px solid green;
+             padding-top: 40px;
+        }
+        .ironmanImg{
+            width: 100%;
+            border: 1px solid green;
+        }
+        .ironmanImg>img{
+            height: 400px;
+            width: 77%;
+            margin-left: 160px;
+            margin-top: -160px;
+        }
+        #vision{
+            border: 1px solid black;
+            height: 600px;
+            width: 80%;
+            color: #4b4b4b;
+            margin: auto;
+        }
+        #vision>div{
+            display: flex;
+            justify-content: space-between;
+        }
+        .visionContent{
+            height: 100%;
+            width: 33%;
+            border: 1px solid teal;
+        }
+        #vision>h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        .visionContent>h3{
+            font-size: 22px;
+            line-height: 30px;
+        }
+        .visionContent>p{
+            font-size: 17px;
+            line-height: 25px;
+            margin-bottom: 40px;
+            margin-top: -10px;
+        }
+        video{
+            width: 60%;
+            border: 1px solid black;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +143,35 @@
         <div class="ironmanContent">
             <div>
                 <img src="https://coschedule.com/img/product/coschedule-marketing-calendar-product-icon-sm.png" />
-                <h5>MARKETING CALENDAR</h5>
+                <h5> MARKETING CALENDAR</h5>
+            </div>
+            <h1>Everything On One Calendar You Can Share</h1>
+            <h3>Take control of your process. See all of your projects together. Show your progress.</h3>
+            <button>Create My Calendar</button>
+            <h6><a href=""> Get started free!</a></h6>
+        </div>
+        <!-- side - image (white boxes)-->
+        <div>
+            <img src="https://coschedule.com/img/product/deco.svg" alt="">
+        </div>
+    </div> 
+    <!-- image of ironman -->
+    <div class="ironmanImg">
+        <img src="https://coschedule.com/img/product/v7/marketing-calendar-1.png" alt="">
+    </div>
+    <!-- vision - the next main box -->
+    <div id="vision">
+        <h2>See the big picture in one marketing calendar</h2>
+        <div>
+            <div class="visionContent">
+                <h3>So you've got more marketing to manage. But how?</h3>
+                <p>Added responsibility leads to <strong>marketing chaos:</strong> total disorganization that leaves you feeling anxious, overwhelmed, and unsure how to handle all of your marketing.</p>
+                <h3>Handle it all in one actionable Marketing Calendar</h3>
+                <p>It’s your secret weapon to finally <strong>see, schedule, and share your marketing,</strong> all in a single calendar.</p>
+            </div>
+            <!-- vision div video -->
+            <div>
+                <video src="https://media.coschedule.com/uploads/Marketing-Calendar-Page-animation_v7.mp4"></video>
             </div>
         </div>
     </div>
