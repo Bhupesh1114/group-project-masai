@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: "MuseoSans-700",sans-serif;
+        }
+        #ironman{
+            height: 600px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: salmon;
+            color: white;
+        }
+        #ironman>div:nth-child(1){
+            height: 80px;
+            width: 100%;
+            border: 1px solid red;
+        }
+        .ironmanContent{
+            height: 350px;
+            width: 80%;
+            border: 1px solid teal;
+            margin: auto;
+        }
+        .ironmanContent>div:nth-child(1){
+            height: 40px;
+            width: 24%;
+            border: 1px solid yellow;
+            margin: auto;
+            background-color: coral;
+            display: flex;
+            align-items: center;
+        }
+        .ironmanContent img{
+            height: 100%;
+        }
+        img+h5{
+            margin-left: 20px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <!-- top box -->
+    <div id="ironman">
+        <!-- navbar div -->
+        <div></div>
+        <!-- content div -->
+        <div class="ironmanContent">
+            <div>
+                <img src="https://coschedule.com/img/product/coschedule-marketing-calendar-product-icon-sm.png" />
+                <h5>MARKETING CALENDAR</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
