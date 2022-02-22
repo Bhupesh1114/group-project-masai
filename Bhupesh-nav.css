@@ -49,6 +49,8 @@ color:#fff;
 border: none;
  }
 
+  /* whyCoschedule-Card -----------------------*/
+
  #whyCoshedule-card{
      width:300px;
      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
@@ -62,7 +64,7 @@ background-color:#fff;
 border-radius:5px;
  }
 
- #navbar > div:first-child > div > div {
+ #navbar > div:first-child > div > div:nth-child(2) {
      position:relative;
      cursor:pointer;
  }
@@ -80,6 +82,42 @@ padding:20px;
      background-color:#F8F8F8
  }
 
- #whyCoshedule-card small{
-     color:grey;
+ .grey-color{
+     color: rgb(182, 173, 173);
+ }
+
+ /* Product Card -------------------- */
+
+#navbar > #main-div > div > div:first-child{
+position: relative;
+}
+
+ #product-card{
+    border-radius: 5px;
+    top:45px;
+    left: -160px;
+     width:720px;
+     height:300px;
+     background-color:#fff;
+     position:absolute;
+     padding:30px;
+     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+     /* display:none; */
+ }
+
+ #navbar #product-card{
+     display: flex;
+ }
+
+ #navbar #product-card h5{
+     letter-spacing:1px
+ }
+ #navbar #product-card >div:first-child{
+width: 60%;
+border-right: 1px solid rgb(238, 232, 232);
+padding:10px
+ }
+ #navbar #product-card >div:last-child{
+     width:40%;
+     padding:10px 30px;
  }
