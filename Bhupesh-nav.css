@@ -217,21 +217,29 @@ color:#2f2f2f;
  }
 
 #resources-card-second-div > p{
-margin-top:22px;
+margin-top:18px;
 font-size:14px;
 font-weight:100;
+padding: 5px;
 }
 
 #resources-card-second-div > h5:nth-child(5){
     margin-top:30px
 }
+#resources-card-second-div > p:hover{
+    background-color:#F8F8F8;
+}
 
 #resources-card-third-div > p{
-    margin-top:22px;
+    margin-top:18px;
     font-size:14px;
     font-weight:100;
+    padding:5px
     }
     
     #resources-card-third-div > h5:nth-child(5){
         margin-top:30px
+    }
+    #resources-card-third-div > p:hover{
+        background-color:#F8F8F8;
     }
