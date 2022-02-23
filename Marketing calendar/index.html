@@ -191,6 +191,34 @@
             font-size: 28px;
             color: darkslategrey;
         }
+        /* thor styling */
+        #thor{
+            width: 80%;
+            border: 1px solid black;
+            margin: auto;
+        }
+        #thor>div{
+            display: flex;
+        }
+        #thor>div>div{
+            width: 43%;
+            border: 1px solid red;
+            padding: 70px 40px ;
+        }
+        #thor img{
+            height: 500px;
+        }
+        #thor h2{
+            font-size: 40px;
+            color: #4b4b4b;
+            line-height: 48px;
+        }
+        #thor p{
+            margin-top: -15px;
+            font-size: 17px;
+            color: #4b4b4b;
+            line-height: 30px;
+        }
     </style>
 </head>
 <body>
@@ -251,5 +279,42 @@
         <!-- ending text of hulk box , below orange box -->
         <h2>You’ve got this. Marketing Calendar will help you prove it.</h2>
     </div>
+    <!-- thor div - the div having all 4 images and text content -->
+    <div id="thor">
+        <!-- all the content through js -->
+    </div>
 </body>
 </html>
+
+<script>
+    var thorData = [{img:"https://coschedule.com/img/product/v7/marketing-calendar-2.png",text:"See everything together (finally)",summary:"Get instant clarity into all of your projects and confirm you’re working on the right priorities."},
+                    {img:"https://coschedule.com/img/product/v7/marketing-calendar-3_v2.png",text:"Share your progress with higher-ups",summary:"See everything you’re working on and show your boss what you’ve accomplished in one read-only view."},
+                    {img:"https://coschedule.com/img/product/v7/marketing-calendar-4.png",text:"Show what your marketing is doing",summary:"Prove the marketing you do every day makes a difference to your company."},
+                    {img:"https://coschedule.com/img/product/v7/marketing-calendar-5.png",text:"Stay flexible when plans change",summary:"Make rescheduling a breeze by dragging and dropping projects right in the calendar."}] ;
+
+                    thorData.map(function(elem,index,array){
+                        //creating the child box
+                        var child = document.createElement("div") ;
+                        //creating parent box
+                        var parent = document.createElement("div") ;
+                        parent.style.marginBottom="100px" ;
+                        // creating image
+                        var img = document.createElement("img") ;
+                        img.setAttribute("src",elem.img) ;
+                        //creating h2 text
+                        var heading = document.createElement("h2") ;
+                        heading.innerText=elem.text ;
+                        //creating p tag text
+                        var summary = document.createElement("p") ;
+                        summary.innerText=elem.summary ;
+                          
+                        child.append(heading,summary) ;
+                        if(index%2==0){
+                            parent.append(img,child) ;
+                        }
+                        else{
+                            parent.append(child,img) ;
+                        }
+                        document.querySelector("#thor").append(parent) ;
+                    }) ;
+</script>
