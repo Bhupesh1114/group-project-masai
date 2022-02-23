@@ -14,11 +14,7 @@
             height: 600px;
             width: 100%;
             border: 1px solid black;
-            background: #ff7e5f; 
-            background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b);
-            background: linear-gradient(to right, #ff7e5f, #feb47b); 
-
-
+            background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
             color: white;
         }
         #ironman>div:nth-child(1){
@@ -73,7 +69,9 @@
             margin: 20px 0px 0px  40%;
         }
         .ironmanContent>button:hover{
-            background-color: indianred;
+            background-color: chocolate;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
         }
         .ironmanContent>h6{
             font-style: italic;
@@ -159,9 +157,7 @@
             width: 100%;
             border: 1px solid red;
             margin: 120px 0px 60px 0px;
-            background: #ff7e5f; 
-            background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b);
-            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
             color: white;
             padding: 25px;
             border-radius: 5px;
@@ -237,8 +233,8 @@
             height: 500px;
         }
         #antman button{
-            padding: 15px;
-            width: 18%;
+            padding: 17px;
+            width: 20%;
             background-color: coral;
             color: white;
             font-size: 14px;
@@ -246,6 +242,77 @@
             border-radius: 5px;
             border: none;
             margin: 20px 0px 0px  40%;
+            
+        }
+        #antman button:hover{
+            cursor: pointer;
+            background-color: chocolate ;
+            transition: all .3s ease-in-out;
+        }
+        /* jarvis styling */
+        #jarvis{
+            width: 80%;
+            border: 1px solid red;
+            margin: auto;
+        }
+        .jarvisContent{
+            margin: auto;
+            width: 73%;
+        }
+        .jarvisContent>h3{
+            font-size: 24px;
+            font-style: italic;
+            font-weight: normal;
+            color: #4b4b4b;
+            text-align: center;
+            line-height: 35px;
+        }
+        .jarvisContent>p{
+            font-size: 15px;
+            text-align: center;
+            color: #4b4b4b;
+            margin-top: -10px;
+        }
+        #jarvis span{
+            background-color: #FFE6DA;
+        }
+        .jarvisOrangeBox{
+            width: 90%;
+            height: 260px;
+            margin: auto;
+            background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin-top: 80px;
+        }
+        .jarvisOrangeBox>h2{
+            text-align: center;
+            font-size: 26px;
+        }
+        .jarvisOrangeBox>p{
+            color: white;
+            font-size: 16px;
+            width: 54%;
+            margin: auto;
+            line-height: 30px;
+            margin-top: -13px;
+            margin-bottom: 30px;
+        }
+        #jarvis button{
+            padding: 18px 23px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px 0 rgb(151 42 11 / 20%);
+            border: 2px solid transparent;
+            background-color: #fff;
+            font-size: 15px;
+            color: #f37e5d;
+            cursor: pointer;
+            font-weight: bold;
+            word-spacing: 2px;
+            margin-bottom: 30px;
+            margin-left: 35%;
         }
     </style>
 </head>
@@ -318,6 +385,19 @@
         <div><button>Get Started Free</button></div>
         <img src="https://coschedule.com/img/product/v7/marketing-calendar-6.png" alt="">
 
+    </div>
+    <!-- jarvis the final div -->
+    <div id="jarvis">
+        <div class="jarvisContent">
+            <h3>"Completing marketing projects used to be a huge challenge. I love that CoSchedule lets us organize our marketing,<span> helps us get work done, </span>and gives my CEO visibility into everything we do."</h3>
+            <p>Fiorella Rollins, Marketing Specialist at Joovy</p>
+        </div>
+        <!-- the orange box of jarvis -->
+        <div class="jarvisOrangeBox">
+                <h2>See everything in a Marketing Calendar you can share</h2>
+                <p>Take control of your process. See all of your projects together. And show your progress. All with the CoSchedule Marketing Calendar.</p>
+                <div><button>Start My Forever-Free Calendar</button></div>
+        </div>
     </div>
 </body>
 </html>
