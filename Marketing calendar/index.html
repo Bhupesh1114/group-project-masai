@@ -14,7 +14,11 @@
             height: 600px;
             width: 100%;
             border: 1px solid black;
-            background-color: salmon;
+            background: #ff7e5f; 
+            background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b);
+            background: linear-gradient(to right, #ff7e5f, #feb47b); 
+
+
             color: white;
         }
         #ironman>div:nth-child(1){
@@ -137,7 +141,7 @@
         }
         #hulk{
             width: 80%;
-            height: 600px;
+            /* height: 600px; */
             border: 1px solid red;
             margin: auto;
         }
@@ -153,11 +157,15 @@
         }
         #hulk>div:nth-child(2){
             width: 100%;
-            height: 200px;
             border: 1px solid red;
-            margin-top: 120px;
-            background-color: coral;
+            margin: 120px 0px 60px 0px;
+            background: #ff7e5f; 
+            background: -webkit-linear-gradient(to right, #ff7e5f, #feb47b);
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
             color: white;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
         #hulk>div>div{
             width: 56%;
@@ -176,6 +184,12 @@
             cursor: pointer;
             font-weight: bold;
             word-spacing: 2px;
+            margin-bottom: 30px;
+        }
+        #hulk>h2{
+            text-align: center;
+            font-size: 28px;
+            color: darkslategrey;
         }
     </style>
 </head>
@@ -234,7 +248,8 @@
             <div><h2>Take control, see all of your projects, and show your progress with Marketing Calendar</h2></div>
             <div><button>Create My Forever-Free Marketing Calendar</button></div>
         </div>
-
+        <!-- ending text of hulk box , below orange box -->
+        <h2>You’ve got this. Marketing Calendar will help you prove it.</h2>
     </div>
 </body>
 </html>
