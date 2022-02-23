@@ -31,7 +31,21 @@ input{
     width: 90%;
     margin-top: 10px;
     height: 30px;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+    background: #fff;
+    color: #525865;
+    outline: none;
 }
+
+input:hover {
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+  }
+  input:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
 p{
     color: #828282;
     font-size: 12px;
@@ -49,6 +63,9 @@ p{
     font-weight: bold;
     font-size: medium;
     border-radius: 5px;
+}
+#signin:hover{
+    background-color:#df6749 ;
 }
 #container > div:last-child{
     text-align: center;
