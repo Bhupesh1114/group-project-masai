@@ -1,0 +1,387 @@
+*{
+    box-sizing: border-box;
+    font-family: "MuseoSans-700",sans-serif;
+}
+#ironman{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
+    color: white;
+}
+#ironman>div:nth-child(1){
+    height: 80px;
+    width: 100%;
+}
+.ironmanContent{
+    height: 350px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.ironmanContent>div:nth-child(1){
+    height: 40px;
+    width: 24%;
+    margin: auto;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+}
+.ironmanContent img{
+    height: 100%;
+}
+img+h5{
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h1+h3{
+    font-style: italic;
+    font-family: "Merriweather",serif;
+    font-weight: 300;
+    margin-top: -30px;
+    font-size: 24px;
+    text-align: center;
+}
+.ironmanContent>button{
+    padding: 15px;
+    width: 20%;
+    background-color: coral;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0px 0px  40%;
+}
+.ironmanContent>button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.ironmanContent>h6{
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.ironmanContent+div{
+     height: 140px;
+     width: 15%;
+     padding-top: 40px;
+}
+.ironmanImg{
+    width: 100%;
+}
+.ironmanImg>img{
+    height: 400px;
+    width: 77%;
+    margin-left: 160px;
+    margin-top: -160px;
+}
+#vision{
+    height: 600px;
+    width: 80%;
+    color: #4b4b4b;
+    margin: auto;
+}
+#vision>div{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+.visionContent{
+    height: 100%;
+    width: 33%;
+}
+#vision>h2{
+    font-size: 30px;
+    text-align: center;
+}
+.visionContent>h3{
+    font-size: 22px;
+    line-height: 35px;
+}
+.visionContent>p{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+.visionContent+div{
+    width: 60%;
+    margin-top: -20px;
+}
+video::-webkit-media-controls-panel {
+    display: none !important;
+    opacity: 1 !important;
+}
+#hulk{
+    width: 80%;
+    margin: auto;
+}
+#hulk>div:nth-child(1){
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    font-style: italic;
+    color: #4b4b4b;
+    line-height: 33px;
+}
+#hulk>div:nth-child(2){
+    width: 100%;
+    margin: 120px 0px 60px 0px;
+    background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#hulk>div>div{
+    width: 56%;
+    margin: auto;
+    text-align: center;
+    line-height: 200%;
+}
+#hulk button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0 rgb(151 42 11 / 20%);
+    border: 2px solid transparent;
+    background-color: #fff;
+    font-size: 15px;
+    color: #f37e5d;
+    cursor: pointer;
+    font-weight: bold;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+#hulk>h2{
+    text-align: center;
+    font-size: 28px;
+    color: darkslategrey;
+}
+/* thor styling */
+#thor{
+    width: 80%;
+    margin: auto;
+}
+#thor>div{
+    display: flex;
+}
+#thor>div>div{
+    width: 43%;
+    padding: 70px 40px ;
+}
+#thor img{
+    height: 500px;
+}
+#thor h2, #antman h2{
+    font-size: 40px;
+    color: #4b4b4b;
+    line-height: 48px;
+}
+#thor p, #antman p{
+    margin-top: -15px;
+    font-size: 17px;
+    color: #4b4b4b;
+    line-height: 30px;
+}
+/* antman styling */
+#antman{
+    width: 80%;
+    margin: auto;
+    margin-top: -50px;
+}
+#antman h2{
+    text-align: center;
+}
+#antman p {
+    text-align:center;
+    margin-top: -30px;
+}
+#antman img{
+    height: 500px;
+}
+#antman button{
+    padding: 17px;
+    width: 20%;
+    background-color: coral;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0px 0px  40%;
+    
+}
+#antman button:hover{
+    cursor: pointer;
+    background-color: chocolate ;
+    transition: all .3s ease-in-out;
+}
+/* jarvis styling */
+#jarvis{
+    width: 80%;
+    margin: auto;
+}
+.jarvisContent{
+    margin: auto;
+    width: 73%;
+}
+.jarvisContent>h3{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+    color: #4b4b4b;
+    text-align: center;
+    line-height: 35px;
+}
+.jarvisContent>p{
+    font-size: 15px;
+    text-align: center;
+    color: #4b4b4b;
+    margin-top: -10px;
+}
+#jarvis span{
+    background-color: #FFE6DA;
+}
+.jarvisOrangeBox{
+    width: 90%;
+    height: 260px;
+    margin: auto;
+    background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.jarvisOrangeBox>h2{
+    text-align: center;
+    font-size: 26px;
+}
+.jarvisOrangeBox>p{
+    color: white;
+    font-size: 16px;
+    width: 54%;
+    margin: auto;
+    line-height: 30px;
+    margin-top: -13px;
+    margin-bottom: 30px;
+}
+#jarvis button{
+    padding: 18px 23px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0 rgb(151 42 11 / 20%);
+    border: 2px solid transparent;
+    background-color: #fff;
+    font-size: 15px;
+    color: #f37e5d;
+    cursor: pointer;
+    font-weight: bold;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    margin-left: 35%;
+}
+
+
+
+
+/* the footer styling */
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: MuseoSans-700,sans-serif
+}
+#godFather{
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: #787878;
+    font-size: 13px;
+    transition-duration:0.3s;
+    transition-timing-function: ease-in-out;
+}
+a:hover{
+    color: black;
+}
+#fContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 30px;
+}
+.footerLogo{
+    height:425px ;
+    width: 22%;
+}
+.footerContent{
+    height:425px ;
+    width: 75% ;
+    display: grid;
+    grid-template-columns: repeat(3,320px);
+    grid-template-rows: 240px 200px;
+}
+.footerContent img+a{
+    margin-left: 7px;
+}
+.footerContent>div{
+    margin-left: 30px;
+}
+
+.footerContent>div>div{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+h5{
+    margin-bottom: 14px;
+    color: #474747;
+}
+#fContainer+div{
+    height: auto;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+}
+.footerLogo>img{
+    height:60.33px ;
+    width:60.33px ;
+}
+.footerLogo>div{
+    margin-top: 10px;
+    margin-left: 4%;
+}
+.footerContent img{
+    height: 15px;
+}
+p{
+    color: #787878;
+    font-size: 14px;
+    margin-left: 3%;
+}
+p+div{
+    margin-right: 7%;
+}
+div>i{
+    font-size: 29px;
+    margin-right: 3px;
+    color: lightgray;
+    border-radius: 50%;
+}
