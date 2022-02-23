@@ -48,6 +48,7 @@ border-radius: 5px;
 padding:14px;
 color:#fff;
 border: none;
+cursor: pointer;
  }
 
   /* whyCoschedule-Card -----------------------*/
@@ -155,4 +156,25 @@ color:#2f2f2f;
 
  #navbar > #main-div > div > div > div > div > div > div:hover{
      background-color:#F8F8F8;
+ }
+
+ /* Resources Card */
+ 
+ #navbar > #main-div > div > div:last-child{
+     position: relative
+ }
+
+ #resources-card{
+     width:720px;
+     height:320px;
+     background-color:tomato;
+     position: absolute;
+     display:none; 
+     top: 80px;
+     left: 50px;
+     border-radius: 5px;
+ }
+
+ #navbar > #main-div > div > div:nth-child(3):hover > #resources-card{
+     display:block; 
  }
