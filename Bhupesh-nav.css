@@ -104,12 +104,9 @@ position: relative;
      position:absolute;
      padding:30px;
      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-     /* display:none; */
- }
-
- #navbar #product-card{
      display: flex;
  }
+
 
  #navbar #product-card h5{
      letter-spacing:1px
