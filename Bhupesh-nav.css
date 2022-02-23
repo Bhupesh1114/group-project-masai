@@ -6,7 +6,7 @@
 }
 
 #navbar {
-  padding: 20px 15px;
+  padding:15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,8 +17,9 @@
 }
 #navbar > div:first-child > img {
   width: 180px;
-  height: 41px;
+  height: 45px;
   margin-right: 20px;
+  cursor: pointer;
 }
 #navbar > div:first-child > div {
   height: 45px;
@@ -34,6 +35,7 @@
   padding: 28px 15px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-size: 15px;
 }
 
 #navbar a:hover {
@@ -47,6 +49,8 @@
   color: #fff;
   border: none;
   cursor: pointer;
+  font-weight: 600;
+  font-size:15px;
 }
 
 /* whyCoschedule-Card -----------------------*/
@@ -62,6 +66,7 @@
   display: none;
   background-color: #fff;
   border-radius: 5px;
+  height:270px;
 }
 
 #navbar > div:first-child > div > div:nth-child(2) {
@@ -179,6 +184,7 @@
   left: 33px;
   border-radius: 5px;
   padding: 30px;
+  background-color: #fff;
 }
 
 #navbar > #main-div > div > div:nth-child(3):hover #resources-card {

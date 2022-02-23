@@ -1,0 +1,52 @@
+:root{
+    --blue-color: #2FB5F7;
+    --white-color:#fff;
+    --orange-color:#f37e5d;
+}
+
+#navbar{
+    background-color:var(--blue-color);
+    padding: 10px 8px 50px 8px;
+}
+#navbar  a{
+    color: var(--white-color);
+}
+#navbar  a:hover{
+    color:var(--white-color);
+    background-color:#53bcf0;
+}
+#navbar > div:last-child > button{
+    background-color:transparent;
+    border: 2px solid var(--white-color);
+    transition:all 0.4s;
+}
+#navbar > div:last-child > button:hover{
+    color: var(--orange-color);
+    background-color:var(--white-color);
+}
+
+#organize-card{
+    background-color:var(--blue-color);
+    height:250px;
+    color:var(--white-color);
+    text-align: center;
+}
+#organize-card>div {
+    width:66.66%;
+    margin:auto
+}
+#organize-card>div >h1:first-child{
+    font-size:12px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+#organize-card>div >h1:nth-child(2){
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+}
+#organize-card>div > p{
+    font-size: 18px;
+    line-height: 170%;
+    margin: 0 0 10px;
+}
