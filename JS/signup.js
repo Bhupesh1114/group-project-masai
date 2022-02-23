@@ -1,5 +1,5 @@
 document.querySelector("#form").addEventListener("submit",signup);
-
+//document.querySelector("createAccountButton").disabled = true;
 var reguserarr = JSON.parse(localStorage.getItem("storedreguser"))||[]
 
 function signup(event){
@@ -21,6 +21,8 @@ function signup(event){
     reguserarr.push(reguserobj)
     console.log(reguserarr)
     var flag = false
+    document.querySelector("createAccountButton").disabled = true;
+
     for(var i=0;i<reguserarr.length;i++)
     {
         if(reguserarr[i].fullname=="" || reguserarr[i].email==""||reguserarr[i].company==""||reguserarr[i].website=="" )
@@ -34,6 +36,8 @@ function signup(event){
     if(flag==true)
     {
         alert("Missing Credential");
+       document.querySelector("createAccountButton").disabled = false;
+
     }
     else if(flag==false)
     {
