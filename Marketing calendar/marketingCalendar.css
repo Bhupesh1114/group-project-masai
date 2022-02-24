@@ -16,7 +16,7 @@
     height: 350px;
     width: 80%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .ironmanContent>div:nth-child(1){
     height: 40px;
@@ -24,7 +24,8 @@
     margin: auto;
     background-color: coral;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-items: flex-end;
 }
 .ironmanContent img{
     height: 100%;
@@ -37,12 +38,13 @@ img+h5{
 h1{
     font-size: 50px;
     text-align: center;
+    margin-top: 2%;
 }
 h1+h3{
     font-style: italic;
     font-family: "Merriweather",serif;
     font-weight: 300;
-    margin-top: -30px;
+    /* margin-top: -30px; */
     font-size: 24px;
     text-align: center;
 }
@@ -55,7 +57,7 @@ h1+h3{
     font-weight: bold;
     border-radius: 5px;
     border: none;
-    margin: 20px 0px 0px  40%;
+    margin: 40px 0px 0px  40%;
 }
 .ironmanContent>button:hover{
     background-color: chocolate;
@@ -66,7 +68,7 @@ h1+h3{
     font-style: italic;
     font-size: 16px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: 400;
 }
 a{
@@ -101,6 +103,7 @@ a{
 .visionContent{
     height: 100%;
     width: 33%;
+    margin-top: 30px;
 }
 #vision>h2{
     font-size: 30px;
@@ -108,17 +111,17 @@ a{
 }
 .visionContent>h3{
     font-size: 22px;
-    line-height: 35px;
+    line-height: 30px;
 }
 .visionContent>p{
     font-size: 17px;
     line-height: 30px;
     margin-bottom: 40px;
-    margin-top: -10px;
+    margin-top: 0px;
 }
 .visionContent+div{
     width: 60%;
-    margin-top: -20px;
+    margin-top: 10px;
 }
 video::-webkit-media-controls-panel {
     display: none !important;
@@ -139,10 +142,11 @@ video::-webkit-media-controls-panel {
 }
 #hulk>div:nth-child(2){
     width: 100%;
-    margin: 120px 0px 60px 0px;
+    height: 250px;
+    margin: 130px 0px 60px 0px;
     background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
     color: white;
-    padding: 25px;
+    padding: 40px;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -151,6 +155,7 @@ video::-webkit-media-controls-panel {
     margin: auto;
     text-align: center;
     line-height: 200%;
+    margin-bottom: 30px;
 }
 #hulk button{
     padding: 15px 20px;
@@ -163,7 +168,7 @@ video::-webkit-media-controls-panel {
     cursor: pointer;
     font-weight: bold;
     word-spacing: 2px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 #hulk>h2{
     text-align: center;
@@ -186,12 +191,13 @@ video::-webkit-media-controls-panel {
     height: 500px;
 }
 #thor h2, #antman h2{
+    margin-top: 40px;
     font-size: 40px;
     color: #4b4b4b;
     line-height: 48px;
 }
 #thor p, #antman p{
-    margin-top: -15px;
+    margin-top: 15px;
     font-size: 17px;
     color: #4b4b4b;
     line-height: 30px;
@@ -237,6 +243,7 @@ video::-webkit-media-controls-panel {
 .jarvisContent{
     margin: auto;
     width: 73%;
+    margin-top: 80px;
 }
 .jarvisContent>h3{
     font-size: 24px;
@@ -250,21 +257,21 @@ video::-webkit-media-controls-panel {
     font-size: 15px;
     text-align: center;
     color: #4b4b4b;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 #jarvis span{
     background-color: #FFE6DA;
 }
 .jarvisOrangeBox{
     width: 90%;
-    height: 260px;
+    height: 280px;
     margin: auto;
     background: linear-gradient(to right, #f37e5d 0%, #f9a97d 100%);
     color: white;
-    padding: 25px;
+    padding: 40px;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 80px;
 }
 .jarvisOrangeBox>h2{
@@ -277,7 +284,7 @@ video::-webkit-media-controls-panel {
     width: 54%;
     margin: auto;
     line-height: 30px;
-    margin-top: -13px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 #jarvis button{
@@ -297,91 +304,3 @@ video::-webkit-media-controls-panel {
 
 
 
-
-/* the footer styling */
-
-
-
-*{
-    box-sizing: border-box;
-    font-family: MuseoSans-700,sans-serif
-}
-#godFather{
-    background-color: whitesmoke;
-}
-a{
-    text-decoration: none;
-    color: #787878;
-    font-size: 13px;
-    transition-duration:0.3s;
-    transition-timing-function: ease-in-out;
-}
-a:hover{
-    color: black;
-}
-#fContainer{
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: 30px;
-}
-.footerLogo{
-    height:425px ;
-    width: 22%;
-}
-.footerContent{
-    height:425px ;
-    width: 75% ;
-    display: grid;
-    grid-template-columns: repeat(3,320px);
-    grid-template-rows: 240px 200px;
-}
-.footerContent img+a{
-    margin-left: 7px;
-}
-.footerContent>div{
-    margin-left: 30px;
-}
-
-.footerContent>div>div{
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-}
-h5{
-    margin-bottom: 14px;
-    color: #474747;
-}
-#fContainer+div{
-    height: auto;
-    width: 100%;
-    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: auto;
-}
-.footerLogo>img{
-    height:60.33px ;
-    width:60.33px ;
-}
-.footerLogo>div{
-    margin-top: 10px;
-    margin-left: 4%;
-}
-.footerContent img{
-    height: 15px;
-}
-p{
-    color: #787878;
-    font-size: 14px;
-    margin-left: 3%;
-}
-p+div{
-    margin-right: 7%;
-}
-div>i{
-    font-size: 29px;
-    margin-right: 3px;
-    color: lightgray;
-    border-radius: 50%;
-}
