@@ -81,6 +81,11 @@ button{
   border-radius: 5px;
 }
 
+button:hover{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 #d1,#d2{
   background-color: #ffede3;
   color: #f89d74;
@@ -112,10 +117,13 @@ button{
 
 #blocks > div{
   margin: auto;
-  /* border: 1px solid #836eea; */
   width: 70%;
   height: 250px;
   border-radius: 5px;
+  border: 1px solid whitesmoke;
+}
+
+#blocks > div:hover{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -174,4 +182,9 @@ hr{
   border-radius: 5px;
   border : 0px;
   font-weight: bold;
+}
+
+#mid-down > button:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
 }
