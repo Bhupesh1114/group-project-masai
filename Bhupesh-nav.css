@@ -29,7 +29,7 @@
 }
 #navbar a {
   font-family: sans-serif;
-  color: #2f2f2f;
+  color: #4b4b4b;
   font-weight: 600;
   font-size: 14px;
   padding: 28px 15px;
@@ -180,7 +180,7 @@
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   position: absolute;
   display: none;
-  top: 80px;
+  top: 70px;
   left: 33px;
   border-radius: 5px;
   padding: 30px;

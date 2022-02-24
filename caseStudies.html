@@ -161,8 +161,131 @@
             <p>CoSchedule helps the world’s best marketing teams take control of their entire marketing strategy. See
                 how these featured customers have found success.</p>
         </div>
+    </div>
+
+    <!-- Filter Area -->
+
+    <div id="filter">
+        <div>
+            <h5>FILTER</h5>
+            <select id="selectValue" onchange="filter()">
+                <option value="all">All</option>
+                <option value="technology">Technology</option>
+                <option value="finance">Finance &amp; Insurance</option>
+                <option value="agency">Agency</option>
+                <option value="higher-education">Higher Education</option>
+                <option value="hospitality">Hospitality &amp; Tourism</option>
+                <option value="health-wellness">Health &amp; Wellness</option>
+                <option value="b2b">B2B</option>
+                <option value="b2c">B2C</option>
+            </select>
+        </div>
+        <div id="totalCards-7"></div>
+    </div>
+
+    <!-- Below Cards section  -->
+    <div id="belowCards">
 
     </div>
 </body>
+
+<script>
+    var cardsArr = [
+        {
+            id: 1,
+            image: "https://media.coschedule.com/uploads/2020/04/UofSC_Alumni_P_Vertical_White_Garnet_RGB-02.png",
+            h4: "This 5-Person Marketing Team Managed 12x More Work While Working Remotely",
+            a: "Read More",
+            category: "higher-education",
+            type: "b2c"
+        },
+        {
+            id: 2,
+            image: "https://media.coschedule.com/uploads/umass-memorial-logo-white.png",
+            h4: "How This HealthCare Company Created Instant Workload Visibility Across 3 Teams With Marketing Suite by CoSchedule",
+            a: "Read More",
+            type: "b2c"
+        },
+        {
+            id: 3,
+            image: "https://media.coschedule.com/uploads/laerdal-logo-white.png",
+            h4: "Laerdal's Global Marketing Team Increased Visibility By Centralizing Thir Marketing Efforts with Marketing Suite by CoSchedule",
+            a: "Read More",
+            type: "b2b"
+        },
+        {
+            id: 4,
+            image: "https://media.coschedule.com/uploads/amp-my-brand-logo-white.png",
+            h4: "How This Marketing Agency Drives Social Media Growth For 16 Franchisee Clients",
+            a: "Read More",
+            category: "agency",
+            type: "b2b"
+        },
+        {
+            id: 5,
+            image: "https://media.coschedule.com/uploads/on24-logo-white.png",
+            h4: "How One Marketing Team Quadrupled Their Content And Drove 1,412% More Organic Traffic To Their Blog",
+            a: "Read More",
+            category: 'technology',
+            type: "b2b"
+        },
+        {
+            id: 6,
+            image: "https://media.coschedule.com/uploads/graebel-logo-white.png",
+            h4: "How This Global Brand Transformed Complex, Multi- Tool Marketing Into A Simplified Workflow",
+            a: "Read More",
+            type: "b2b"
+        },
+        {
+            id: 7,
+            image: "https://media.coschedule.com/uploads/simpleview-logo-02.png",
+            h4: "Simpleview Completes 5x More Marketing Projects Every Month Using CoSchedule Marketing Suite",
+            a: "Read More",
+            category: 'technology',
+            type: "b2b"
+        }
+    ]
+    displayData(cardsArr);
+    function displayData(arr) {
+        arr.map(function (elem, ind, arr) {
+            var div = document.createElement("div")
+            var div1 = document.createElement("div");
+            var div2 = document.createElement("div");
+            var img = document.createElement("img")
+            img.setAttribute("src", elem.image);
+            var h4 = document.createElement("h4");
+            h4.innerText = elem.h4;
+            var a = document.createElement("a");
+            a.innerText = elem.a;
+            div1.append(img);
+            div2.append(h4, a);
+            div.append(div1, div2)
+            document.querySelector("#totalCards-7").append(div)
+        })
+    }
+
+    function filter() {
+        var selectValue = document.querySelector("#selectValue").value;
+        if (selectValue === "all") {
+            document.querySelector("#totalCards-7").innerHTML = "";
+            displayData(cardsArr);
+        } else if (selectValue === "b2b" || selectValue === "b2c") {
+            var filteredArr = cardsArr.filter(function (elem, index, arr) {
+                return elem.type === selectValue;
+            });
+            document.querySelector("#totalCards-7").innerHTML = "";
+            displayData(filteredArr);
+        }
+        else {
+            var filteredArr = cardsArr.filter(function (elem, index, arr) {
+                return elem.category === selectValue;
+            });
+            document.querySelector("#totalCards-7").innerHTML = "";
+            displayData(filteredArr);
+        }
+    }
+
+
+</script>
 
 </html>
