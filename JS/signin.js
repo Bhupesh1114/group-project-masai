@@ -5,12 +5,14 @@ function login(event){
     event.preventDefault();
     var email = document.querySelector("#email").value
     var pass = document.querySelector("#pass").value;
+    //console.log(email,pass)
     var flag = false;
     for(var i=0;i<reguser.length;i++)
     {
         if(email==reguser[i].email && pass==reguser[i].password)
         {
             flag = true;
+            console.log("yes")
         }
         else{
             flag = false;

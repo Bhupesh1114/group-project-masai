@@ -162,6 +162,11 @@ var Data =[{
     
     ];
     
+
+    //display categories
+
+
+    function displayData(Data){
     Data.map(function(ele){
         var div = document.createElement("div");
     
@@ -198,3 +203,116 @@ var Data =[{
         div3.append(atrname,date);
         document.querySelector("#thirdbox").append(div);
     })
+}
+
+displayData(Data);
+
+// filtering categories
+
+
+function categories(){
+    displayData(Data);
+}
+
+function marketing(){
+    document.querySelector("#thirdbox").innerHTML="";
+    var marketing=[]
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%5==0)
+        {
+            marketing.push(Data[i]);
+        }
+    }
+    displayData(marketing);
+
+}
+function social(){
+    console.log("yes")
+   document.querySelector("#thirdbox").innerHTML="";
+    var socialmedia=[]
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%3==0)
+        {
+            socialmedia.push(Data[i]);
+        }
+    }
+    displayData(socialmedia);
+}
+
+function email(){
+    document.querySelector("#thirdbox").innerHTML="";
+    var email=[];
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%4==0)
+        {
+            email.push(Data[i])
+        }
+    }
+    displayData(email);
+}
+function management(){
+    document.querySelector("#thirdbox").innerHTML="";
+    var management=[];
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%5==0)
+        {
+            management.push(Data[i])
+        }
+    }
+    displayData(management);
+}
+function workflow(){
+    document.querySelector("#thirdbox").innerHTML="";
+    var workflow=[];
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%6==0)
+        {
+            workflow.push(Data[i])
+        }
+    }
+    displayData(workflow);
+}
+
+function analytics(){
+    document.querySelector("#thirdbox").innerHTML="";
+    var analytics=[];
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%7==0)
+        {
+            analytics.push(Data[i])
+        }
+    }
+    displayData(analytics);
+}
+
+function product(){
+    document.querySelector("#thirdbox").innerHTML="";
+    var product=[];
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%8==0)
+        {
+            product.push(Data[i])
+        }
+    }
+    displayData(product);
+}
+
+function training(){
+    document.querySelector("#thirdbox").innerHTML="";
+    var training=[];
+    for(var i=0;i<Data.length;i++)
+    {
+        if(i%9==0)
+        {
+            training.push(Data[i])
+        }
+    }
+    displayData(training);
+}
