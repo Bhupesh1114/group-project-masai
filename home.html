@@ -8,13 +8,17 @@
     <title>Home</title>
 </head>
 <body>
+    <div id="header">
+        <div>Home</div>
+        <div>Calender</div>
+</div>
     <div id="home_page">
         <div id="left_side">
             <div id="head">
                 <h2>My Upcoming</h2>
                 <button onclick="show_hide()">+ New Task</button>     
             </div>
-            <div><hr> Monday <div><input id="write" type="text"></div> </div>
+            <div><hr> Monday <input id="write" type="text"></div>
             <div><hr> Tuesday </div>
             <div><hr> Wednesday </div>
             <div><hr> Thursday </div>
@@ -28,10 +32,11 @@
                 <p>Recent</p>
                 <p>Favorites</p>
             </div>
-            <div></div>
+            <div id="show"></div>
         </div>
     </div>
+
+    <script src="./home.js"></script>
 </body>
 </html>
 
-<script src="./home.js"></script>
