@@ -40,6 +40,7 @@ function signup(event){
     else if(flag==false)
     {
         alert("Signup Successfull")
+        window.location.href="../Signin/Signin.html"
     }
 
     localStorage.setItem("storedreguser",JSON.stringify(reguserarr))
