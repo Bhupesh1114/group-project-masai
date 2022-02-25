@@ -2,8 +2,121 @@
   font-family: sans-serif;
 }
 
+#Akbar{
+  height:600px;
+  width:100%;
+  background-color:#f8f8f8;
+}
+/* #Akbar>.Reena{
+  width:100%;
+  height:160px;
+} */
+#Akbar>div{
+  height:300px;
+  width:100%;
+}
+
+
+#main_top{
+  text-align:center;
+  width:70%;
+  height:78px;
+  margin:auto;
+  font-size:50px;
+  color:#4B4B4B;
+}
+h1+p{
+  width:750px;
+  height:50px;
+  color:#4B4B4B;
+  margin:auto;
+  margin-top:70px;
+  font-size:19px;
+  padding-left:50px;
+}
+#firstclick{
+  width:220px;
+  height:51.42px;
+  background-color:#F37E5D;
+  border:0px; 
+  color: white;
+  font-weight: bold;
+  margin-left:550px;
+} 
+
+#firstclick:hover{
+   background-color:orangered;
+}
+
+div >.small{
+  width:300px;
+  height:21px;
+  font-size:16px;
+  color:#4B4B4B;
+  margin-left:572px;
+  padding-top:0px;
+}
+#firstpic{
+  margin-left:50px;
+}
+#Babar{
+  width:100%;
+  height:480px;
+  margin-top: -150px;
+  margin-bottom:250px;
+  color:#ffffff;
+}
+#Babar>div{
+  width:80%;
+  height:320px;
+  margin:auto;
+  margin-top:60px;
+
+}
+#sline{
+  width:80%;
+  height:34.00px;
+  color:#4B4B4B;
+  margin:auto;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size:26px;
+}
+#Auranzeb{
+  display:grid;
+  grid-template-columns:repeat(5, 1fr);
+  grid-template-rows:repeat(2, 110px);
+  margin-top:20px;
+  gap:0px 0px;
+
+}
+#Auranzeb>div{
+  width:100%;
+  height:90px;
+}
+.Kohli>img{
+  width:150px;
+  height:52.5px;
+}
+
+
+
+
+
+
+#mid-back{
+  width: 100%;
+  height: 1300px;
+  background-color: #f8f8f8;
+}
+
+
+
+
 #head{
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 #mid-top{
@@ -46,7 +159,7 @@
 
 .first{
   display: inline-block;
-  position: relative;
+  position: absolute;
   width:100%;
   height: 100px;
   border-top-left-radius: 10px;
@@ -60,6 +173,7 @@
   height: 60px;
   top: 60px;
   left: 30px;
+  z-index: 1;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -120,7 +234,7 @@ button:hover{
   width: 70%;
   height: 250px;
   border-radius: 5px;
-  border: 1px solid whitesmoke;
+  border: 1px solid lightgrey;
 }
 
 #blocks > div:hover{
