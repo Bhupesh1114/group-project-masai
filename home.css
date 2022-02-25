@@ -19,15 +19,11 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(1,600px);
     gap: 20px;
-    border: 1px red;
 }
 
 #home_page > div{
-    /* width: 900px; */
     background-color: whitesmoke;
-    border: 1px solid teal;
     border-radius: 10px;
-    /* margin-left: 20px; */
 }
 
 #left_side{
@@ -60,17 +56,17 @@ button:hover{
 }
 
 #write {
-    
     width: 95%;
     height: 30px;
-    background-color: lightgray;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
   } 
   
 
 #right_side{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 20px,550px;
+    grid-template-rows: 50px 500px;
     /* justify-content: space-evenly; */
 }
 
