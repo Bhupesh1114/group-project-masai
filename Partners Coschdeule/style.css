@@ -1,0 +1,122 @@
+
+        *{
+            font-family:MuseoSans-300, sans-serif;
+        }
+        #Akbar{
+            height:600px;
+            width:100%;
+            background-color:#f8f8f8;
+            
+            
+        
+        }
+        #Akbar>.Reena{
+            width:100%;
+            height:160px;
+
+        }
+        #Akbar>div{
+            height:300px;
+            width:100%;
+    
+        }
+        
+
+        div>h1{
+            text-align:center;
+            width:800px;
+            height:78px;
+            margin:auto;
+            font-size:50px;
+            color:#4B4B4B;
+        
+        }
+        h1+p{
+            width:750px;
+            height:50px;
+            color:#4B4B4B;
+            margin:auto;
+            margin-top:50px;
+            font-size:19px;
+            padding-left:50px;
+        }
+         button{
+            width:220px;
+            height:51.42px;
+            background-color:#F37E5D;
+            border:0px; 
+            margin-left:550px;
+            
+            
+            
+        } 
+
+        p+button:hover{
+             background-color:orangered;
+        }
+        a{
+            font-size:15px;
+            color:#FFFFFF;
+            font-weight: 400;
+            line-height: 1.428571429;
+            text-align: center;
+            margin:auto;
+            font-weight:bold;
+            
+        }
+        div>.small{
+            width:300px;
+            height:21px;
+            font-size:16px;
+            color:#4B4B4B;
+            margin-left:572px;
+            padding-top:0px;
+        }
+        img{
+
+            margin-left:50px;
+            
+        }
+        #Babar{
+            width:100%;
+            height:480px;
+            margin-bottom:500px;
+            padding-bottom:300px;
+            color:#ffffff;
+        }
+        #Babar>div{
+            width:80%;
+            height:320px;
+            margin:auto;
+            margin-top:60px;
+
+        }
+        #India>h2{
+            width:720px;
+            height:34.00px;
+            color:#4B4B4B;
+            margin:auto;
+            font-size:29px;
+            padding-left:100px;
+            font-family:MuseoSans-700, sans-serif;
+        }
+        #Auranzeb{
+            display:grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-template-rows:repeat(2, 1fr);
+            /* width:100%;
+            height:300px; */
+            margin-top:20px;
+            gap:0px 0px;
+
+        }
+        #Auranzeb>div{
+            width:100%;
+            height:90px;
+        }
+        .Kohli>img{
+            width:150px;
+            height:52.5px;
+        }
+    
+

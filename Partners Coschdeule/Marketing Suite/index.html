@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            font-family:MuseoSans-300, sans-serif;
+        }
+        #headerNavbar{
+            width:100%;
+            height:61px;
+            background-color:#FFFFFF;
+            display:flex;
+            justify-content:space-between;
+            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+        
+        #headerNavbar>div{
+            width:60px;
+            width:30%;
+            border:1px solid red;
+            display:flex;
+        
+
+        }
+        .first{
+            justify-content:space-between;
+        }
+        .img>img{
+            width:180px;
+            height:41px;
+            padding:5px 10px 0px 0px;
+        }
+
+        #hoverBox{
+            width:200px;
+            height:100px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        }
+        /* #btnnn>button{
+            width:150px;
+            height:40px;
+            background-color: #F37E5D;
+        } */
+        
+        #Akbar{
+            height:600px;
+            width:100%;
+            background-color:#f8f8f8;
+            
+            
+        
+        }
+        #Akbar>.Reena{
+            width:100%;
+            height:160px;
+
+        }
+        #Akbar>div{
+            height:300px;
+            width:100%;
+    
+        }
+        
+
+        div>h1{
+            text-align:center;
+            width:1000px;
+            height:78px;
+            margin:auto;
+            font-size:50px;
+            color:#4B4B4B;
+            
+        
+        
+        }
+        h1+p{
+            width:700px;
+            height:50px;
+            color:#4B4B4B;
+            margin:auto;
+            margin-top:50px;
+            font-size:25px;
+            padding-left:50px;
+            font-family: "Merriweather",serif;
+            font-weight:lighter;
+            
+        }
+         button{
+            width:220px;
+            height:51.42px;
+            background-color:#F37E5D;
+            border:0px; 
+            margin-left:550px;
+            
+            
+            
+        } 
+        .orange>a{
+            font-size:15px;
+            color:#FFFFFF;
+            font-weight: 400;
+            line-height: 1.428571429;
+            text-align: center;
+            margin:auto;
+            font-weight:bold;
+            
+        }
+        div>.getstarted{
+            width:300px;
+            height:21px;
+            font-size:14px;
+            color:#F37E5D;
+            margin-left:597px;
+            padding-top:0px;
+            font-weight:lighter;
+            
+            
+        }
+        a+p{
+            color:#4B4B4B;
+            width:625px;
+            height:54.8px;
+            margin:auto;
+            margin-top:40px;
+            font-family: "MuseoSans-300",sans-serif;
+            font-size:16px;
+            text-align:center;
+
+            
+        }
+        img{
+
+            margin-left:50px;
+            
+        }
+      #ReferrenceLinks{
+          display:flex;
+          
+          
+          
+      }
+      #ReferrenceLinks>div{
+          width:210px;
+          height:122px;
+          margin:100px 20px 0px 0px;
+          
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          background-color:#FFFFFF;
+      }
+    #ReferrenceLinks>.firstboxx{
+        margin-left:215px;
+    }
+    .firstboxx>img{
+        width:45px;
+        height:45px;
+        padding:18px 35px;
+        
+    }
+    .firstboxx>h5{
+        width:167px;
+        height:20.8px;
+        color:#4B4B4B;
+        margin:0px 30px ;
+        font-size:16px;
+    }
+    .secondboxx>img{
+        width:45px;
+        height:45px;
+        padding:18px 35px;
+        
+    }
+    .secondboxx>h5{
+        width:167px;
+        height:20.8px;
+        color:#4B4B4B;
+        margin:0px 25px ;
+        font-size:16px;
+        text-align:center;
+    }
+    #ReferrenceLinks>div:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+    #Graphs{
+        width:100%;
+        height:500px;
+        /* border:1px solid black; */
+        margin-top:200px;
+        display:flex;
+    }
+    #Graphs>.Text{
+        width:350px;
+        height:350px;
+        
+        margin:10px 70px 0px 190px;
+    }
+    #Graphs>.Video{
+        width:500px;
+        border:450px;
+        
+    }
+    .Text>h2{
+        color:#4B4B4B;
+        width:337px;
+        height:83px;
+        font-size:32px;
+    }
+    .Text>p{
+        color:#4B4B4B;
+        width:337px;
+        height:115px;
+        font-size:17px;
+        line-height: 170%;
+        font-family: "MuseoSans-300",sans-serif;
+        margin:0px 0px 10px;
+        padding-bottom:20px;
+        justify-content:center;
+    }
+
+    #Gradients{
+        width:74%;
+        height:295px;
+        background: #C04848;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       border-radius:5px;
+       margin:auto;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    #Gradients>h2{
+        width:510px;
+        height:72.8px;
+        text-align:center;
+        color:#FFFFFF;
+        font-size:28px;
+        font-family:MuseoSans-700, sans-serif;
+        margin:auto;
+        line-height:150%;
+        padding-top:50px;
+    }
+    h2+button{
+            width:220px;
+            height:51.42px;
+            background-color:#FFFFFF;
+            border:0px; 
+            margin-left:385px;
+            color:#F37E5D;
+            margin-top:30px;
+    }
+    button>a{
+        
+            font-size:15px;
+            color: #F37E5D;
+            font-weight: 400;
+            line-height: 1.428571429;
+            text-align: center;
+            margin:auto;
+            font-weight:bold;
+            
+        
+    }
+    button+a{
+        width:300px;
+            height:21px;
+            font-size:14px;
+            color:#FFFFFF;
+            margin-left:430px;
+            padding-top:20px;
+            font-weight:lighter;
+    }
+    h2+button:hover{
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+    #portfolio{
+        width:74%;
+        height:325px;
+        /* border:1px solid red; */
+        margin:auto;
+        margin-top:140px;
+    }
+    #portfolio>h3{
+        width:760px;
+        height:87px;
+        font-size:18px;
+        line-height:160%;
+        font-family:sans-serif;
+       color: #4B4B4B;
+       font-weight:lighter;
+       text-align:center;
+       margin:auto;
+       font-style:inherit;
+    }
+    #PicsCont{
+     width:500px;
+     height:100px;
+     /* border:1px solid black; */
+     margin:10px 260px;
+     display:flex;
+    }
+    .profile>img{
+        width:70px;
+        height:70px;
+        border-radius:50%;
+        padding-top:10px;
+        
+    }
+    .heading>h5{
+        font-size:12px;
+        color:#4B4B4B;
+        padding-left:20px;
+        
+
+    }
+    .heading>p{
+        font-size:14px;
+        color:#4B4B4B;
+        padding-left:20px;
+        padding-bottom:40px;
+    }
+    .underline{
+        color:#F37E5D;
+        font-weight:bold;
+        font-weight:14px;
+        padding-left:200px;
+    }
+
+    #BigGround{
+        width:1190px;
+        height:920px;
+        background-color:#F8F8F8;
+        /* border:1px solid black; */
+    }
+    .ContentMaking{
+        width:75%;
+        height:265px;
+        /* border:1px solid red; */
+        margin-top:50px;
+        margin-left:180px;
+        display:flex;
+        
+    }
+    .ContentMaking>.one{
+        width:60%;
+        height:250px;
+        /* border:1px solid black; */
+        margin-left:40px;
+        
+    }
+    .ContentMaking>.two{
+        width:30%;
+        height:250px;
+        /* border:1px solid black; */
+        margin-left:20px;
+    }
+    .one>h2{
+        font-size:32px;
+        color:#4B4B4B;
+        font-family:MuseoSans-700, sans-serif;
+        font-weight:bold;
+
+    }
+    .one>p{
+        width:465px;
+        height:145px;
+        color:#4B4B4B;
+        font-size:17px;
+        line-height:150%;
+        font-family:MuseoSans-300, sans-serif;
+    }
+    .two>img{
+        width:250px;
+        height:173.61px;
+    }
+    .Outsideh{
+        width:900px;
+        height:52px;
+    margin:auto;
+    margin-top:100px;
+    }
+    .Outsideh>h2{
+        font-size:40px;
+        text-align:center;
+        color:#4B4B4B;
+        
+    
+    }
+    .Worldcup{
+        width:90%;
+        height:600px;
+        /* border:1px solid red; */
+        margin:auto;
+        margin-top:30px;
+        display:flex;
+
+    }
+    .Worldcup>.bigger{
+        width:512.5px;
+        height:512.5px;
+        /* border:1px solid black; */
+        margin:20px 50px 0px;
+
+
+    }
+    .Worldcup>.smaller{
+        width:490.5px;
+        height:500px;
+        /* border:1px solid black; */
+        margin:20px 0px 0px;
+    }
+    .bigger>img{
+        width:100%;
+        
+    }
+    .smaller>.first{
+        width:300px;
+        height:60px;
+        /* border:1px solid black; */
+        margin:50px 0px 0px 0px;
+        display:flex;
+      
+
+    }
+    .fit>img{
+        width:40px;
+        height:40px;
+        padding:5px 5px;
+        
+    }
+    .fit>h5{
+        font-size:12px;
+        color:#4B4B4B;
+        width:153.41px;
+        height:30px;
+        padding-left:10px;
+
+    }
+    .fit{
+        display:flex;
+        
+    }
+    .second{
+        width:80%;
+        height:300px;
+
+    }
+    .second>h2{
+        width:357.5px;
+        height:83.19px;
+        color:#4B4B4B;
+        font-size:32px;
+        padding-left:55px;
+
+    }
+    .second>p{
+        width:420.5px;
+        height:115.56px;
+        font-size:17px;
+        color:#4B4B4B;
+        padding-left:55px;
+        line-height: 30px;
+        
+    }
+    .second>button{
+        width:145px;
+        height:46;
+        border:2px solid #F37E5D;
+        color:#F37E5D;
+        background-color: #FFFFFF;
+        margin-left:60px;
+        font-weight:bold;
+    }
+    .second>button:hover{
+        background-color:#F37E5D;
+        color:#FFFFFF;
+    }
+    .second>.Gap{
+        padding-top:20px;
+    }
+    .second>.paper{
+        width:145px;
+        height:46;
+        border:2px solid #835CE5;
+        color:#835CE5;
+        background-color: #FFFFFF;
+        margin-left:60px;
+        font-weight:bold;
+    }
+    .second>.paper:hover{
+
+        background-color:#835CE5;
+        color:#FFFFFF;
+    }
+
+    .second>.pen{
+        width:145px;
+        height:46;
+        border:2px solid #30ADF9;
+        color:#30ADF9;
+        background-color: #FFFFFF;
+        margin-left:60px;
+        font-weight:bold;
+    }
+    .second>.pen:hover{
+
+border:2px solid #30ADF9;
+color:#FFFFFF;
+background-color:#30ADF9;
+}
+
+.second>.adjust{
+    width:460.5px;
+    height:83.19px;
+}
+.second>.fix{
+    width:450.15px;
+    height:116px
+}
+    </style>
+</head>
+<body>
+    <div id="headerNavbar">
+        <div class="first">
+            <div class="img">
+                <img src="https://coschedule.com/img/product/coschedule-marketing-suite-logo-color.svg"/>
+            </div>
+            <div>
+                <select>
+                   <option>Explore</option>
+                   <div id="hoverBox"></div>
+                </select>
+            </div>
+        </div>
+        <div class="secondd">
+            <!-- <div id="btnnn">
+                <button><a>Get A Demo</a></button>
+            </div> -->
+        </div>
+    </div>
+    <div id="Akbar">
+        <div class="Reena"></div>
+    <div> 
+        <h1>Take Control Of Your Process And Bring Your Team Together.</h1>
+        <p>Complete more work. Deliver projects on time. Prove your value.</p>
+        <button class="orange">
+            <a>Request Your Demo Now</a>
+        </button>
+        <a href="" class="getstarted">Or Get Started Free</a>
+        <p>CoSchedule Marketing Suite is a family of agile marketing products that helps you coordinate your process, projects, and teams.</p>
+    
+    </div>
+    <div id="ReferrenceLinks">
+        <div class="firstboxx">
+            <img src="https://coschedule.com/img/product/marketing-calendar-product-icon.png" alt=""/>
+            <h5>Calender Organizer</h5>
+        </div>
+        <div class="secondboxx">
+            <img src="https://coschedule.com/img/product/content-organizer-product-icon.png" alt=""/>
+            <h5>Content Organizer</h5>
+        </div>
+        <div class="secondboxx">
+            <img src="https://coschedule.com/img/product/work-organizer-product-icon.png" alt=""/>
+            <h5>Work Organizer</h5>
+        </div>
+        <div class="secondboxx">
+            <img src="https://coschedule.com/img/product/asset-organizer-product-icon.png" alt=""/>
+            <h5>Asset Organizer</h5>
+        </div>
+    </div>
+    </div>
+<div id="Graphs">
+    <div class="Text">
+        <h2>Close the output gap with Marketing Suite</h2>
+        <p>Marketers are expected to do more without more resources. 60% of the workweek is wasted managing work — not completing it.</p>
+        <p>CoSchedule Marketing Suite removes time wasters so your team can perform to its full potential.</p>
+    </div>
+    <div class="Video">
+        <video width="520" height="410" controls controls autoplay>
+            <source src="https://media.coschedule.com/uploads/2021/08/marketing-suite_output-gap_19.mp4" type="video/mp4">
+    </div>
+</div>  
+<div id="Gradients">
+    <h2>Start completing more marketing with Marketing Suite</h2>
+    <button>
+        <a>Request Your Demo Now</a>
+    </button>
+    <a href="" class="getSet">Or Get Started Free</a>
+</div>   
+<div id="portfolio">
+    <h3>"CoSchedule Marketing Suite has been a fabulous tool for managing projects. It’s so seamless. There’s no more back-and-forth on whether projects have been completed. It’s all right there where everybody can see it, so everybody’s accountable"</h3>
+    <div id="PicsCont">
+        <div class="profile">
+            <img src="https://coschedule.com/img/testimonials/debora-spano-umass.png"/>
+        </div>
+        <div class="heading">
+            <h5>DEBORA SPANO</h5>
+            <p>Proactive Media Relations Manager</p>
+        </div>
+        
+    </div>
+    <a class="underline" href="">See how UMass Memorial gained back 93 productive hours every month.</a>
+</div>
+<div id="BigGround">
+    <div class="ContentMaking">
+      <div class="one">
+          <h2>Complete more work</h2>
+          <p>Publish more content to generate a higher ROI by increasing your existing team’s productive work capacity. Eliminate endless email threads, unnecessary meetings, and desk drop-bys to complete 125% more work.</p>
+      </div>
+      <div class="two">
+          <img src="https://coschedule.com/img/product/suite/suite-complete-more-work.png" alt=""/>
+      </div>
+    </div>
+    <div class="ContentMaking">
+        <div class="two">
+            <img src="https://coschedule.com/img/product/suite/suite-deliver-projects-on-time.png" alt=""/>
+        </div>
+        <div class="one">
+            <h2>Deliver Projects On Time</h2>
+            <p>Develop a high-performance team that completes projects on time by balancing the predictability and flexibility of your work. Maintain on-time task completion rates greater than 90%.</p>
+        </div>
+        
+    </div>
+    <div class="ContentMaking">
+        <div class="one">
+            <h2>Prove your value</h2>
+            <p>Get full visibility into your marketing operations to prioritize, plan, and manage a reliable pipeline of upcoming and in-flight projects. Focus 100% of your efforts on work that aligns with strategic business goals.</p>
+        </div>
+        <div class="two">
+            <img src="https://coschedule.com/img/product/suite/suite-prove-your-value.png" alt=""/>
+        </div>
+      </div>
+</div>
+<div class="Outsideh">
+    <h2><h2>Explore the Marketing Suite</h2></h2>
+</div>
+<div class="Worldcup">
+    <div class="bigger">
+        <img src="https://coschedule.com/img/product/suite/suite-marketing-calendar2.png" alt=""/>
+    </div>
+    <div class="smaller">
+        <div class="first">
+            <div class="fit">
+                
+                    <img src="https://coschedule.com/img/product/coschedule-marketing-calendar-product-icon.svg" />
+                
+            
+                    <h5>CALENDAR ORGANIZER</h5>
+                
+            </div>
+            <div></div>
+        </div>
+        <div class="second">
+            <h2>Visualize everything in real time</h2>
+            <p>See every project on a unified calendar of record. Keep stakeholders "in the know.” Manage marketing requests and pivot quickly when priorities change.</p>
+            <button>Explore More</button>       
+        </div>
+    </div>
+</div>
+
+
+
+<div class="Worldcup">
+    
+    <div class="smaller">
+        <div class="first">
+            <div class="fit">
+                
+                    <img src="https://coschedule.com/img/product/coschedule-content-organizer-product-icon.svg" />
+                
+            
+                    <h5>CONTENT ORGANIZER</h5>
+                
+            </div>
+            <div></div>
+        </div>
+        <div class="second">
+            <h2>Eliminate content bottlenecks from idea to promotion</h2>
+            <p class="Gap">Optimize your editorial process to save time and deliver more. Centralize publishing and promotion by connecting your tools.</p>
+            <button class="paper">Explore More</button>       
+        </div>
+    </div>
+
+    <div class="bigger">
+        <img src="https://coschedule.com/img/product/suite/suite-content-organizer.png" alt=""/>
+    </div>
+
+</div>
+
+
+
+<div class="Worldcup">
+    <div class="bigger">
+        <img src="https://coschedule.com/img/product/suite/suite-work-organizer.png" alt=""/>
+    </div>
+    <div class="smaller">
+        <div class="first">
+            <div class="fit">
+                
+                    <img src="https://coschedule.com/img/product/coschedule-work-organizer-product-icon.svg" />
+                
+            
+                    <h5>WORK ORGANIZER</h5>
+                
+            </div>
+            <div></div>
+        </div>
+        <div class="second">
+            <h2>Maximize resources to increase output</h2>
+            <p>Implement consistent, defined workflows to speed up production and identify how urgent changes impact proactively planned work.</p>
+            <button>Explore More</button>       
+        </div>
+    </div>
+</div>
+
+
+
+<div class="Worldcup">
+    
+    <div class="smaller">
+        <div class="first">
+            <div class="fit">
+                
+                    <img src="https://coschedule.com/img/product/coschedule-asset-organizer-product-icon.svg" />
+                
+            
+                    <h5>ASSET ORGANIZER</h5>
+                
+            </div>
+            <div></div>
+        </div>
+        <div class="second">
+            <h2 class="adjust">Catalog and maintain control of brand assets</h2>
+            <p class="fix">Customize taxonomies to quickly find, update, and share files. Securely share folders and files with stakeholders to make sure your work is up-to-date.</p>
+            <button class="pen">Explore More</button>       
+        </div>
+    </div>
+
+    <div class="bigger">
+        <img src="https://coschedule.com/img/product/suite/suite-asset-organizer.png" alt=""/>
+    </div>
+
+</div>
+
+
+
+<div id="Gradients">
+    <h2>Take Control Of Your Process And Bring Your Team Together</h2>
+    <button>
+        <a>Request Your Demo Now</a>
+    </button>
+    <a href="" class="getSet">Or Get Started Free</a>
+</div>   
+
+
+</body>
+</html>
+
+
+
+
+
+
