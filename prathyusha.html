@@ -6,7 +6,282 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
+        background-color: #f8f8f8;
+    }
+    .cards{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: space-around;
+         margin:auto; 
+         padding:20px; 
+         width: 80%; 
+         gap:30px; 
+         /* box-sizing: content-box; */
+    }
+    .img>img{
+        width: 100px;
+        height: 100px;
+        margin-right:-25px;
+        margin-top:-25px;
+        display:inline;
+        padding:-20px;
+
+        
+    }
+    .img{
+      
+      width:10%;
+    }
+    .sel{
+        padding:30px;
+    }
+
+
+    .container{
+        text-align: center;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-top: 5px solid #f37e5d;
+        box-sizing:border-box;
+
+    }
+    .one{
+    padding-top:0px;
+    display: flex;
+    height:80%;
+    
+    }
+    h3{
+        font-weight :800;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 17px;
+    margin: 0;
+    }
+    h2{
+        font-weight: 600;
+    font-family: "MuseoSans-700",sans-serif;
+    font-size: 40px;
+    letter-spacing: -0.3px;
+    text-transform: none;
+    margin: 5px;
+    }
+    p{
+        font-size: 16px;
+    /* line-height: 140%; */
+    color: #787878;
+    margin:5px;
+    margin-bottom:40px;
+
+    }
+    .link{
+        background-color: #f37e5d;
+    padding: 10px;
+    width:60%;
+    border: 0;
+    transition: all .2s ease-in-out;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 90px;
+
+
+    }
+    .sel>.link{
+        width:80%;
+        /* margin-top:75px; */
+        margin-bottom:20px;
+        
+
+    }
+    .pricebelow{
+        margin:-10px;
+        
+    }
+    ul{
+    padding: 5px 0;
+    line-height: 150%;
+    font-family: "MuseoSans-300",sans-serif;
+    font-size: 15px;
+    line-height: 200%;
+    color: #4b4b4b;
+    list-style-image: url(https://coschedule.com/img/orange-checkmark.svg);
+    padding-left: 30px;
+    text-align:left;
+    word-spacing: 0px;;
+    margin-top: 20px;
+
+}
+#switch{
+    margin:0px;
+
+
+}
+.sel>p{
+    width:120%;
+
+
+}
+.two{
+    margin-top:35px;
+
+}
+.three{
+    background-color: white;
+    border: 2px solid #f37e5d;
+    color: #f37e5d;
+    margin:auto;
+    margin-top:95px ;
+}
+#include{
+    margin-top:30px;
+    margin-bottom:5px;
+    text-align: left;
+}
+.cal{
+    margin-top: 5px;
+}
+.month{
+    color:#f37e5d;
+    
+}
+.talk{
+    font-size: 28px;
+    color:#4B4B4B;
+    font-family: "MuseoSans-300",sans-serif;
+    font-weight:100;
+
+}
+#firul{
+    margin-top:30px;
+    margin-bottom:20px;
+    padding-left:0px;
+    padding-right:20px;
+    padding:2px;
+
+    
+}
+
+    
+
+    #top>h1{
+
+        margin-top:30px;
+        text-align:center;
+        padding:5px;
+
+
+    }
+    #top>img{
+        height:50px;
+        width:10%;
+        display:block;
+        margin:auto;
+        margin-top:5px;
+        
+    }
+    #top>p{
+        color:#4B4B4B;
+        font-family: "MuseoSans-700",sans-serif;
+        text-align:center;
+        font-size: 16px;
+        line-height: 170%;
+        
+
+    }
+    #top>h1{
+        font-family: "MuseoSans-700",sans-serif;
+        font-size: 35px;
+        max-width: 700px;
+        margin: 30px auto 10px;
+
+    }
+    .second{
+        height:88%;
+    }
+    
+</style>
 <body>
-    <h1>i am prathyusha</h1>
+    <div id="top">
+        <img src="https://coschedule.com/img/cos-logo-full-color.svg">
+        <h1>Organize Your Marketing With Content Calendar Software by CoSchedule</h1>
+        <p id="try">Try it free. No credit card required.</p>
+    </div>
+    <div>
+    <div class="cards">
+        <div class="container one">
+           
+           <div class="sel"><h3>Marketing Calendar</h3>
+            <h2>Free</h2>
+            <p>The forever-free marketing calendar to see everything in one place.</p>
+            <h2>$0</h2>
+            <h3 class="pricebelow">Free Forever</h3>
+            <a class="link" href="">Get Started Free</a>
+            <ul id="firul">
+                <li>Personal Project & Task Management</li>
+                <li>Unlimited Marketing Projects and content</li>
+                <li>Marketing & Project Management Integrations</li>
+                <li>Social Media Publishing</li>
+                <li>Self-Serve Knowledge Base</li>
+                <li>Basic Support</li>
+            </ul>
+        </div>
+        <div class="img"> <img src="https://coschedule.com/img/pricing/mc-free-badge-01.png"></div>
+
+        </div>
+        <div class="container second">
+            <h3>Marketing Calendar</h3>
+            <h2>Pro</h2>
+            <p>The advanced marketing calendar with limitless publishing to gain even more control.</p>
+            <h2>$29</h2>
+            <h3>per user/month</h3>
+            <p id="switch">Billed Annually</p>
+            <a class="month" href="">Switch to Monthly</a>
+            <a class="link two"  href="">Get Started Free</a>
+            <ul>
+                <li>Real-Time Marketing Calendar</li>
+                <li>Unlimited Read-Only Observer Calendar Views</li>
+                <li>Simultaneous Team Member Access & Collaboration</li>
+                <li>Customizable Task Workflow Templates</li>
+                <li>Unlimited Social Media Publishing </li>
+                <li>Bulk Social Media Scheduling</li>
+                <li>Social Media Automation & Campaign Templates</li>
+                <li>Priority Support</li>
+            </ul>
+
+        </div>
+        <div class="container third">
+            <h3>Marketing Suite</h3>
+            <h2>Business</h2>
+            <p>A family of agile marketing products to complete more work and prove your team's value.</p>
+            <h2 class="talk">Let's Talk</h2>
+            <a  class="link three" href="">Contact Sales</a>
+            <p id="include">Includes all Marketing Calendar Pro capabilities, plus:</p>
+            <ul class="cal">
+                <li>Calendar Team Filtering</li>
+                <li>Marketing Request Management</li>
+                <li>Multi-Channel Campaigns</li>
+                <li>Single Sign-On & Security</li>
+                <li>Custom User Access & Permissions</li>
+                <li>Automatic Marketing Campaigns</li>
+                <li>Custom Project Templates</li>
+                <li>Workflow Automation & Bottleneck Mitigation</li>
+                <li>Asset & File Management Storage</li>
+                <li>File Sharing Enablement</li>
+                <li>Detailed Project, Work, & Team Analytics</li>
+                <li>Team Performance Reporting</li>
+                <li>Advanced Premium Integrations</li>
+                <li>1:1 Customer Success Management</li>
+            </ul>
+        </div>
+        
+    </div>
+
+
 </body>
 </html>
