@@ -2,7 +2,7 @@ var a;
 var arr = JSON.parse(localStorage.getItem("store"))||[];
 var give = document.getElementById("write");
 console.log(give);
-give.style.display = "flex";
+give.style.display = "none";
 function show_hide(){
        
     var dataObj = {task:give.value};
