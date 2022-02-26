@@ -1,0 +1,185 @@
+*{
+    font-family:sans-serif;
+}
+
+:root{
+    --blue-color: #2FB5F7;
+    --white-color:#fff;
+    --orange-color:#f37e5d;
+}
+body{
+    background-color:#f8f8f8;
+}
+#navbar{
+    background-color:var(--blue-color);
+    padding: 10px 8px 50px 8px;
+}
+#navbar  a{
+    color: var(--white-color);
+}
+#navbar  a:hover{
+    color:var(--white-color);
+    background-color:#53bcf0;
+}
+#navbar > div:last-child > button{
+    background-color:transparent;
+    border: 2px solid var(--white-color);
+    transition:all 0.4s;
+}
+#navbar > div:last-child > button:hover{
+    color: var(--orange-color);
+    background-color:var(--white-color);
+}
+
+#organize-card{
+    background-color:var(--blue-color);
+    height:250px;
+    color:var(--white-color);
+    text-align: center;
+}
+#organize-card>div {
+    width:66.66%;
+    margin:auto
+}
+#organize-card>div >h1:first-child{
+    font-size:12px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+}
+#organize-card>div >h1:nth-child(2){
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+}
+#organize-card>div > p{
+    font-size: 18px;
+    line-height: 170%;
+    margin: 0 0 10px;
+}
+
+/* Filter */
+
+#filter{
+    width:80%;
+    margin:auto;
+    padding:30px 0px 30px
+}
+#filter >div > h5{
+    letter-spacing: 1px;
+    margin: 10px 0;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #bababa;
+    display: inline-block;
+}
+#filter >div > select {
+    height: 40px;
+    background: #fff;
+    border: 1px solid #eef2ff;
+    color: #787878;
+}
+#filter >div> select >option{
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    font-size:16px;
+}
+#filter > div:first-child{
+border-bottom: 1px solid rgb(228, 225, 225);
+padding-bottom: 20px;
+}
+#totalCards-7{
+    width:80%;
+    display:grid;
+    grid-template-columns: repeat(3,40%);
+    grid-template-rows: repeat(3,auto);
+}
+
+
+#totalCards-7 >div{
+border: 1px solid rgb(238, 232, 232);
+padding:10px;
+border-radius:5px;
+margin: 20px 10px;
+transition: box-shadow 0.4s ease-in-out;;
+cursor:pointer;
+height:420px;
+}
+#totalCards-7 >div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#totalCards-7 > div >div:first-child{
+    background-color:var(--blue-color);
+    border-radius:5px;
+    height:50%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#totalCards-7 > div:first-child >div > img{
+    width:150px;
+}
+
+#totalCards-7 >div:nth-child(3) >div >img{
+    width:180px
+}
+#totalCards-7 > div >div:last-child{
+    padding: 25px 20px;
+}
+
+#totalCards-7 > div >div:last-child > h4{
+    font-size:20px;
+     color:#4b4b4b ;
+     line-height: 140%;
+     margin-bottom: 10px;
+}
+#totalCards-7 > div >div:last-child >a{
+    font-size:14px;
+    font-weight:bold;
+    color: var(--blue-color);
+}
+
+
+/*  below Cards */
+#belowCards{
+    width:80%;
+    background-color:var(--orange-color);
+    height:253px;
+    padding: 60px 30px 40px;
+text-align: center;
+margin: auto;
+border-radius:5px;
+margin-bottom: 50px;;
+}
+
+#belowCards > h2{
+color: var(--white-color);
+font-size:30px;
+}
+
+#belowCards > h3{
+    font-size:20px;
+    font-style: italic;
+    font-weight:300;
+    color: var(--white-color);
+    font-family: "Merriweather",serif;
+    margin-top: 10px;
+}
+
+#belowCards > button{
+    background-color:transparent;
+    border: 2px solid var(--white-color);
+    transition:all 0.4s;
+    cursor: pointer;
+    font-weight: 600;
+    font-size:15px;
+    border-radius: 4px;
+  padding: 15px 50px;
+  color: #fff;
+  margin-top: 20px;
+}
+#belowCards >button:hover{
+    color: var(--orange-color);
+    background-color:var(--white-color);
+}
