@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ed6b16674.js" crossorigin="anonymous"></script>
+    <title>Calendar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: MuseoSans-700,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            color: darkgray;
+        }
+        /* styling top bar */
+        #ragnar{
+            height: 50px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            background-color: whitesmoke;
+        }
+        #ragnar>div{
+            border: 1px solid teal;
+            display: flex;
+            align-items: center;
+        }
+        #ragnar>div:nth-child(1){
+            width: 30%;
+            height: 100%;
+        }
+        #ragnar span{
+            font-size: 20px;
+            font-weight: bold;
+            color: #4d4d4d;
+        }
+        .bars{
+            font-size: 20px;
+        }
+        #ragnar>div:nth-child(2){
+            height: 100%;
+            width: 20%;
+        }
+        .calendar{
+            font-size: 18px;
+        }
+        #ragnar>div>div{
+            margin-left: 4%;
+        }
+        #ragnar button{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="ragnar">
+        <div>
+            <i class="fa-solid fa-bars bars"></i>
+            
+            <div>
+                <i class="fa-solid fa-calendar calendar"></i>
+                <span>Calendar</span>
+            </div>
+            <div>/</div>
+            <button>All
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
